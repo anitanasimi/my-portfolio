@@ -1,10 +1,10 @@
-import Image from "next/image";
-import Navbar from "./components/Navbar";
+import React from "react";
+import Intro from "@/components/intro";
 
 export default function Home() {
   return (
-    <div>
-      <Navbar/>
+    <div className="flex flex-col items-center px-4">
+      <Intro />
     </div>
   );
 }

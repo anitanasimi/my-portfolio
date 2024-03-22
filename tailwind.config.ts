@@ -8,14 +8,6 @@ const config: Config = {
     "./pages/**/*.{ts,tsx}",
     "./public/**/*.html",
   ],
-  theme: {
-    extend: {
-      backgroundImage: {
-  
-      },
-    },
-  },
-  plugins: [require("daisyui")],
 };
 
 export default config;
