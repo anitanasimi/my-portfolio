@@ -72,7 +72,7 @@ const {
           <BsArrowRight className="opacity-70 group-hover:translate-x-2 transition" />
         </Link>
         <a
-          className="group bg-white  px-4 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 active:scale-105 transition hover:scale-90 cursor-pointer border border-purple-950/40"
+          className="group bg-white  px-4 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 active:scale-105 transition hover:scale-90 cursor-pointer border border-purple-950/40 dark:bg-white/10"
           href="/resume.pdf"
           download
         >
@@ -81,9 +81,11 @@ const {
         </a>
 
         <a
-          className="bg-white text-gray-700  p-4 flex items-center gap-2 rounded-full border border-purple-950/40
-        cursor-pointer hover:scale-110 active:scale-110 focuse:scale-110
-         hover:text-gray-950
+          className="bg-white text-gray-700  p-4 flex items-center gap-2 rounded-full border borderBlack
+        cursor-pointer hover:scale-110 active:scale-110 focuse:scale-110 
+         hover:text-gray-950 
+dark:bg-white/20
+dark:text-white/60
         "
           href="https://linkedin.com"
           target="_blank"
@@ -91,9 +93,11 @@ const {
           <BsLinkedin />
         </a>
         <a
-          className="bg-white text-gray-700  p-4 flex items-center gap-2 rounded-full border border-purple-950/40
+          className="bg-white text-gray-700  p-4 flex items-center gap-2 rounded-full border borderBlack
         cursor-pointer hover:scale-110 active:scale-110 focuse:scale-110
         hover:text-gray-950
+        dark:bg-white/20
+        dark:text-white/60
         "
           href="https://github.com"
           target="_blank"
