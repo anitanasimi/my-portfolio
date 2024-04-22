@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useEffect } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
@@ -7,11 +5,10 @@ import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function About() {
-
   const { ref, inView } = useInView({
     threshold: 0.75,
   });
-    const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
+  const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 
   useEffect(() => {
     if (inView && Date.now() - timeOfLastClick > 1000) {
@@ -30,17 +27,17 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        Im a passionate full-stack developer with a strong foundation in web
-        development. My journey into the world of technology began at BCIT,
-        where I honed my skills in HTML, CSS, and JavaScript. Since then, I've
-        expanded my expertise to include advanced technologies such as
+        I&apos;m a passionate full-stack developer with a strong foundation in
+        web development. My journey into the world of technology began at BCIT,
+        where I honed my skills in HTML, CSS, and JavaScript. Since then,
+        I&apos;ve expanded my expertise to include advanced technologies such as
         TypeScript, React, and Next.js for frontend development, and Node.js,
-        Express, and Django for backend development. I'm proficient in database
-        management with MongoDB and PostgreSQL, and I use Git for version
-        control. I also have experience with modern CSS frameworks like Tailwind
-        CSS and animation libraries like Framer Motion. My diverse skill set
-        allows me to approach projects with a holistic perspective, ensuring
-        both functionality and aesthetics are top-notch.
+        Express, and Django for backend development. I&apos;m proficient in
+        database management with MongoDB and PostgreSQL, and I use Git for
+        version control. I also have experience with modern CSS frameworks like
+        Tailwind CSS and animation libraries like Framer Motion. My diverse
+        skill set allows me to approach projects with a holistic perspective,
+        ensuring both functionality and aesthetics are top-notch.
       </p>
     </motion.section>
   );
