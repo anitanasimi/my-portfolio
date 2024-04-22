@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -9,19 +10,15 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { useInView } from "react-intersection-observer";
 import { useSectionInView } from "@/lib/hooks";
-
 export default function Intro() {
-const {ref} = useSectionInView("Home",0.5)
-const {
-  setActiveSection,
-  setTimeOfLastClick,
-} = useActiveSectionContext();
- 
+  const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+
   return (
     <section
       ref={ref}
       id="home"
-      className=" max-w-[50rem] text-center sm:mb-0 mb-28 scroll-mt-[100rem]"
+      className="max-w-[50rem] text-center sm:mb-0 mb-28 scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -47,9 +44,9 @@ const {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hi, I'm Anita, a full-stack developer with a strong focus on frontend
-        development. I'm passionate about building innovative and user-friendly
-        interfaces that bring ideas to life.
+        Hi, I&apos;m Anita, a full-stack developer with a strong focus on
+        frontend development. I&apos;m passionate about building innovative and
+        user-friendly interfaces that bring ideas to life.
       </motion.p>
 
       <motion.div
@@ -62,7 +59,7 @@ const {
       >
         <Link
           href="#contact"
-          className=" group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-100 hover:bg-gray-950 active:scale-105 transition hover:scale-90"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-100 hover:bg-gray-950 active:scale-105 transition hover:scale-90"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now);
@@ -87,7 +84,7 @@ const {
 dark:bg-white/20
 dark:text-white/60
         "
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/anita-nasimi/"
           target="_blank"
         >
           <BsLinkedin />
@@ -99,7 +96,7 @@ dark:text-white/60
         dark:bg-white/20
         dark:text-white/60
         "
-          href="https://github.com"
+          href="https://github.com/anitanasimi"
           target="_blank"
         >
           <FaGithubSquare />
