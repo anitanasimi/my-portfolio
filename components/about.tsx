@@ -30,10 +30,17 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        hi this is about me Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Error, quo odit ipsam incidunt facilis soluta ducimus deleniti
-        molestiae accusantium voluptates nostrum facere, esse eligendi libero
-        mollitia dolorum placeat corrupti provident.
+        Im a passionate full-stack developer with a strong foundation in web
+        development. My journey into the world of technology began at BCIT,
+        where I honed my skills in HTML, CSS, and JavaScript. Since then, I've
+        expanded my expertise to include advanced technologies such as
+        TypeScript, React, and Next.js for frontend development, and Node.js,
+        Express, and Django for backend development. I'm proficient in database
+        management with MongoDB and PostgreSQL, and I use Git for version
+        control. I also have experience with modern CSS frameworks like Tailwind
+        CSS and animation libraries like Framer Motion. My diverse skill set
+        allows me to approach projects with a holistic perspective, ensuring
+        both functionality and aesthetics are top-notch.
       </p>
     </motion.section>
   );
