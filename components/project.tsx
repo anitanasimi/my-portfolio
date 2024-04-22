@@ -2,7 +2,7 @@ import { projectsData } from "@/lib/data";
 import { useRef } from "react";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
-import SectionHeading from "./section-heading";
+
 
 type ProjectsProps = (typeof projectsData)[number];
 export default function Project({

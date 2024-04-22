@@ -1,10 +1,3 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import comingSoon from "@/public/coming-soon.jpg";
-
-
 export const links = [
   {
     name: "Home",
@@ -22,10 +15,7 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+
   {
     name: "Contact",
     hash: "#contact",
@@ -38,7 +28,7 @@ export const projectsData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ",
     tags: ["React", "Next.js", "Tailwind", "more"],
-    imageUrl: "/public/coming-soon.jpg",
+    imageUrl:"/coming-soon.jpg",
   },
   {
     title: "coming soon",
@@ -46,14 +36,14 @@ export const projectsData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     tags: ["React", "Next.js", "Tailwind", "more"],
 
-    imageUrl: "/public/coming-soon.jpg",
+    imageUrl:"/coming-soon.jpg",
   },
   {
     title: "Coming soon",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     tags: ["React", "Next.js", "Tailwind", "more"],
-    imageUrl: "/public/coming-soon.jpg",
+    imageUrl:"/coming-soon.jpg",
   },
 ] as const;
 
