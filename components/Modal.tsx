@@ -48,6 +48,7 @@ function ModalContent() {
                       alt="Modal Image 1"
                       width={300}
                       height={200}
+                      unoptimized
                     />
                   </div>
                 )}
@@ -58,6 +59,7 @@ function ModalContent() {
                       alt="Modal Image 2"
                       width={300}
                       height={200}
+                      unoptimized
                     />
                   </div>
                 )}
