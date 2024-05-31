@@ -27,18 +27,79 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About Me</SectionHeading>
-      <p className="mb-3">
-        I&apos;m a passionate full-stack developer with a strong foundation in
-        web development. My journey into the world of technology began at BCIT,
-        where I honed my skills in HTML, CSS, and JavaScript. Since then,
-        I&apos;ve expanded my expertise to include advanced technologies such as
-        TypeScript, React, and Next.js for frontend development, and Node.js,
-        Express, and Django for backend development. I&apos;m proficient in
-        database management with MongoDB and PostgreSQL, and I use Git for
-        version control. I also have experience with modern CSS frameworks like
-        Tailwind CSS and animation libraries like Framer Motion. My diverse
-        skill set allows me to approach projects with a holistic perspective,
-        ensuring both functionality and aesthetics are top-notch.
+      <p className="mb-6 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+        I&apos;m a passionate{" "}
+        <span className="font-bold text-gray-900 dark:text-gray-50">
+          Full-stack Developer
+        </span>{" "}
+        with a strong foundation in web development.
+        <br /> My journey into the world of technology began at{" "}
+        <span className="font-semibold text-indigo-600 dark:text-indigo-400">
+          BCIT
+        </span>
+        , where I honed my skills in{" "}
+        <span className="font-medium text-blue-600 dark:text-blue-400">
+          HTML
+        </span>
+        ,{" "}
+        <span className="font-medium text-blue-600 dark:text-blue-400">
+          CSS
+        </span>
+        , and{" "}
+        <span className="font-medium text-blue-600 dark:text-blue-400">
+          JavaScript.
+        </span>
+        <br />
+        Since then, I&apos;ve expanded my expertise to include advanced
+        technologies such as{" "}
+        <span className="font-medium text-green-600 dark:text-green-400">
+          TypeScript
+        </span>
+        ,{" "}
+        <span className="font-medium text-green-600 dark:text-green-400">
+          React
+        </span>
+        , and{" "}
+        <span className="font-medium text-green-600 dark:text-green-400">
+          Next.js
+        </span>{" "}
+        for frontend development, and{" "}
+        <span className="font-medium text-red-600 dark:text-red-400">
+          Node.js
+        </span>
+        ,{" "}
+        <span className="font-medium text-red-600 dark:text-red-400">
+          Express
+        </span>
+        , and{" "}
+        <span className="font-medium text-red-600 dark:text-red-400">
+          Django
+        </span>{" "}
+        for backend development.
+        <br /> I&apos;m proficient in database management with{" "}
+        <span className="font-medium text-purple-600 dark:text-purple-400">
+          MongoDB
+        </span>{" "}
+        and{" "}
+        <span className="font-medium text-purple-600 dark:text-purple-400">
+          PostgreSQL
+        </span>
+        , and I use{" "}
+        <span className="font-medium text-yellow-600 dark:text-yellow-400">
+          Git
+        </span>{" "}
+        for version control. <br />I also have experience with modern CSS
+        frameworks like{" "}
+        <span className="font-medium text-pink-600 dark:text-pink-400">
+          Tailwind CSS
+        </span>{" "}
+        and animation libraries like{" "}
+        <span className="font-medium text-pink-600 dark:text-pink-400">
+          Framer Motion
+        </span>
+        . <br />
+        My diverse skill set allows me to approach projects with a holistic
+        perspective, ensuring both functionality and aesthetics are top-notch.
       </p>
     </motion.section>
   );

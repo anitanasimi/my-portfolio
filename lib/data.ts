@@ -67,7 +67,7 @@ export const projectsData = [
     imgModal1: "/lingolink1.JPG",
     imgModal2: "/lingolink2.JPG",
     githubUrl: "https://github.com/anitanasimi/lingoLink",
-    website: "https://https://lingolink-chat.vercel.app",
+    website: "https://lingolink-chat.vercel.app",
   },
   {
     title: "Stock Market App",
