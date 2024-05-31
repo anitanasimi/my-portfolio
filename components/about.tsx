@@ -32,8 +32,10 @@ export default function About() {
         <span className="font-bold text-gray-900 dark:text-gray-50">
           Full-stack Developer
         </span>{" "}
-        with a strong foundation in web development.
-        <br /> My journey into the world of technology began at{" "}
+        with a knack for front-end work, always
+        excited about building cool and user-friendly interfaces. I love turning
+        creative ideas into awesome digital experiences.
+        <br /> My journey into the world of the web developing began at{" "}
         <span className="font-semibold text-indigo-600 dark:text-indigo-400">
           BCIT
         </span>
