@@ -102,6 +102,7 @@ export const projectsData = [
     ],
     imageUrl: "/imagify.jpg",
     imgModal1: "/imagify.jpg",
+    imgModal2:"",
 
     githubUrl: "https://github.com/anitanasimi/Imagify",
     website:
