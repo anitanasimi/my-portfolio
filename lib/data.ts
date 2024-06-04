@@ -83,6 +83,31 @@ export const projectsData = [
     website: "https://client-stockmarket.liara.run/",
   },
   {
+    title: "Imagify",
+    description:
+      "This application utilizes AI to generate images from text descriptions.",
+    more: "This application uses AI to turn text descriptions into stunning images with the help of the OpenAI API. It's built using Vite, Node.js, Express.js, and React.js for a smooth user experience. Data is stored in MongoDB, and Cloudinary is used for image management. The frontend is deployed on Netlify, and the backend is hosted on Render, ensuring reliable and scalable performance.",
+
+    tags: [
+      "vite",
+      "Express js",
+      "Node js",
+      "Tailwind",
+      "MongoDb",
+      "React js",
+      "OpenAI API",
+      "Cloudinary",
+      "render",
+      "netlify",
+    ],
+    imageUrl: "/imagify.jpg",
+    imgModal1: "/imagify.jpg",
+
+    githubUrl: "https://github.com/anitanasimi/Imagify",
+    website:
+      "https://665eb43624f451caa6ae961c--storied-biscotti-0bd63f.netlify.app/",
+  },
+  {
     title: "Currency Converter",
 
     description:
